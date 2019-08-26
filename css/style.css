@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+#hover{
+    border:3px solid white;
+    width:200px;
+    margin:250px auto 0;
+    font-size:1.3em;
+    padding:10px;
+    color:white;
+}
+#hover:hover{
+    background-color: white;
+    color:black;
+}
+#scale{
+    border:3px solid white;
+    width:200px;
+    margin:50px auto;
+    font-size:1.3em;
+    padding:10px;
+    color:white;
+}
+#scale:hover{
+    transform: scale(1.2);
+    background-color: white;
+    color:black;
+    transition-duration: 0.5s;
+}
+
+
+#transition{
+    border:3px solid white;
+    width:200px;
+    margin:50px auto;
+    font-size:1.3em;
+    padding:10px;
+    color:white;
+}
+#transition:hover{
+    transform: translate(250px);
+    background-color: white;
+    color:black;
+    transition-duration: 0.5s;
+}
+}
